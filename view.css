@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,700;1,800&display=swap');
+:root{
+    --primary:#FC6501;
+    --secondary:#F8F8FB;
+    --third:rgba(0, 0, 0, 0.5);
+    --fourth:rgba(0, 0, 0, 0.2);
+    --fifth:#FFFFFF;
+    --sixth:#2F2F2F;
+    --seventh: #F8F8FB;
+    --eighth:#2C2C2C;
+    --ninth:rgba(47, 47, 47, 0.2);;
+   
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background: var(--secondary);
+}
+a{
+    text-decoration: none;
+}
+.Main-container .image{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.slider-class{
+    padding-left:10px;
+    padding-right:10px;
+    background-color:var(--fifth);
+}
+.fa-arrow-left{
+    margin-left:-30px;
+    color:var(--sixth);
+}
+.fa-arrow-right{
+    margin-right:-30px;
+    color:var(--sixth);
+}
+.price-tag{
+    margin-top:10px;
+}
+.price-tag span{
+    color:var(--primary);
+    padding-left:5px;
+    font-size:16px;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+.button-1{
+    background-color: var(--primary);
+    text-align: center;
+    width:120px;
+    height:35px;
+    border: 3px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    color: var(--seventh);
+    font-size:14px;
+    
+}
+.button-2{
+    background-color: var(--primary);
+    text-align: center;
+    width:120px;
+    height:35px;
+    border: 3px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    color: var(--seventh);
+    font-size:14px;
+}
+.first-right-container h1{
+    font-size:1.5rem;
+    margin-top:15px;
+}
+.rating-comment{
+    display: flex;
+    justify-content: space-between;
+    font-size:0.8rem;
+    margin-right:50px;
+    
+}
+.rating-comment .line{
+    height:20px;
+    width:2px;
+    background-color: var(--sixth);
+
+}
+.rating{
+    color:var(--primary);
+}
+.rating-comment span{
+    color:var(--primary);
+
+}
+.author{
+    margin-top:-8px;
+}
+.author p{
+    color:var(--primary);
+    font-size:0.9rem;
+    cursor:pointer;
+}
+.description-list li{
+    font-size: 0.8rem;
+}
+.technology{
+    font-size:0.8rem;
+}
+.null{
+    font-size:0.8rem;
+}
+.rating-view{
+   display: flex;
+   
+}
+.number-rating{
+    font-size:1.4rem;
+    font-weight:600;
+}
+.rating-view .flex-rating-1 .fa-star{
+    color: var(--primary);
+
+}
+.flex-rating-1 .span-rating{
+    font-size:0.8rem;
+}
+.flex-rating-1 .span-rating span{
+    color:var(--primary);
+}
+.flex-rating-2{
+    display: flex;
+    justify-content: space-between;
+    margin-left:100px;
+}
+.flex-rating-2 .fa-star{
+    color:var(--ninth) ;
+    
+}
+.flex-rating-2 .star-one-5{
+    color: var(--primary);
+}
+.progressBar {
+    margin-left:20px;
+    margin-top:10px;
+}
+.progressBar .prg-1{
+    width:160px;
+    height:13px;
+    background-color:var(--primary);
+}
+.progressBar .prg{
+    width:160px;
+    height:13px;
+    background-color:var(--ninth);
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.rate-number{
+    color:var(--primary);
+    font-size:0.7rem;
+    margin-left:20px;
+}
+.rate-number .n-1{
+    margin-top:10px;
+}
+.rate-number .n-2{
+    margin-top:-11px;
+}
+.rate-number .n-3{
+    margin-top:-10px;
+}
+.rate-number .n-4{
+    margin-top:-10px;
+}
+.rate-number .n-5{
+    margin-top:-10px;
+}
+.person-rvw {
+    display: flex;
+    margin-bottom:10px;
+
+}
+.person-rvw img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    margin-top:10px;
+}
+.person-rvw .author-details{
+    margin-left:10px ;
+    font-size:0.8rem;
+}
+.person-rvw .name-author{
+    margin-top:20px ;
+}
+.person-rvw .publish-date{
+    margin-top:-10px;
+}
+.person-rvw .fa-star{
+    color:var(--primary);
+}
+.Right-container h1{
+    font-size:0.9rem;
+    margin-top:15px;
+}
+.Right-container .card-class {
+    display: flex;
+}
+.card-class a{
+    color:var(--sixth);
+}
+.card-class img{
+    width:100px;
+    height:70px;
+
+}
+.card-body .card-title{
+    font-size:0.8rem;
+    margin-top:-10px;
+}
+.card-text{
+    font-size:0.7rem;
+}
+@media (max-width:1200px) and (min-width:767px)
+{
+    .rating-comment{
+        margin-right:0px;
+
+    }
+
+}
+@media (max-width:1000px) and (min-width:767px)
+{
+    .rating-comment{
+        font-size:0.6rem;
+
+    }
+    .rating-comment .line{
+        width:1px;
+        height:12px;
+    }
+    .first-right-container h1{
+        font-size:1.1rem;
+    }
+   
+
+}
+@media (max-width:515px)
+{
+    .flex-rating-2 {
+        margin-left:20px;
+    }
+}
+@media (max-width:434px)
+{
+    .progressBar{
+        margin-left:10px;
+
+    }
+    .progressBar .prg-1{
+        width:100px;
+    }
+    .progressBar .prg{
+        width:100px;
+    }
+}
+@media (max-width:366px)
+{
+   .rating-comment{
+    font-size:0.7rem;
+   }
+    .progressBar .prg-1{
+        width:80px;
+    }
+    .progressBar .prg{
+        width:80px;
+    }
+}
